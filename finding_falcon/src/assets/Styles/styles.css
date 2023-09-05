@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+}
+
+.planet_card{
+    /* width: 250px; */
+    max-width: 345px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.planet_image{
+    height: 250px;
+    width: 100%;
+}
+
+.ship-card{
+    width: 400px;
+    height: 110px;
+    display: flex;
+}
+
+.selected{
+    /* border: 3px solid greenyellow !important; */
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 30px 0px rgba(0,0,0,0.14), 0px 12px 3px 0px rgba(0,0,0,0.12);
+}
+
+.ship-card-image{
+    height: 100%;
+    width: 150px;
+}
+
+.ship-card-content{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ship-card-content h5{
+    font-size: 24px;
+}
+
+.ship-card-content p{
+    font-size: 16px;
+}
+
+.final-box{
+    height: 100vh;
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.gap2{
+    gap: 2px;
+}
